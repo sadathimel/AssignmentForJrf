@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIGI KOEIN</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#">
+        <div class="logo">
+          <img src="./assets/images/HERO/logo.png" alt="">
+          <h1 class="logotext">DIGI KOEIN</h1>
+        </div>
+      </a>
+
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li onclick="scrollToWhatwedo()">
+            <a href="#what_we_do" class="navbar-link" data-nav-link>What we do</a>
+          </li>
+
+          <li onclick="scrollToDigikoein()">
+            <a href="#What_is_digikoein?" class="navbar-link" data-nav-link>what is Digikoein?</a>
+          </li>
+
+          <li>
+            <a href="#remittance" class="navbar-link" data-nav-link>Remittance</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <div class="select-container">
+            <select name="language" id="language">
+              <option value="english">English</option>
+              <option value="bangla">Bangla</option>
+              <option value="japanese">Japanese</option>
+            </select>
+          </div>
+        </ul>
+
+
+      </nav>
+
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-text">
+              UNIFIED PRODUCT, SIMPLIFIED TRANSECTION
+            </p>
+            <h1 class="hero-title">
+              <span>FREE YOUR MONEY WITH DIGITAL</span>
+              <span>BLOCKCHAIN / DHL BANK</span>
+            </h1>
+            <p class="hero-text">
+              DIGI-KOEIN is a cryptocurrency, It’s developed by Green Sked, led by financial experts, to transform the
+              financial
+              industry and enhance people's lives using Blockchain technology.
+            </p>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary yellow">Learn More</a>
+            </div>
+          </div>
+          <div class="btn-scrolldown">
+            <img src="./assets/images/scrolldown.png" alt="">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+                   - #What we do
+            -->
+
+      <section class="section whatwedo" id="whatwedo">
+        <div class="container">
+
+          <div class="section-title">
+            <h2 class="h2"> <span>What we do with</span> <span>Blockchain DLT/ Bank</span> </h2>
+
+            <p class="section-text">
+              Join a first-growing community of developers and innovators connected all over the world, building the new
+              era of the internet.
+            </p>
+
+            <div class="arrow_btn">
+
+              <span class="btn-link arrow_one">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                  <path d="M12.25 22.75L3.5 14M3.5 14L12.25 5.25M3.5 14H24.5" stroke="#F8C100" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+
+              <span class="btn-link arrow_two">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                  <path d="M15.75 5.25L24.5 14M24.5 14L15.75 22.75M24.5 14L3.5 14" stroke="#F8C100" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+
+          </div>
+
+          <ul class="whatwedo-list ">
+
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="TradeFinance"><img src="/assets/images/trade.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Trade Finance</h4>
+
+                  <p class="p card-subtitle">We offer green financing to help sellers, buyers, and financial
+                    institutions
+                    facilitate trade as well as create an
+                    atmosphere for non-conventional players</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="crossborder"><img src="/assets/images/crossborder.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Cross-Border Payments</h4>
+
+                  <p class="p card-subtitle">We make the transaction easier between the payer and payee from different
+                    countries by ensuring low cost, high speed,
+                    unlimited access and sufficient transparency.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="digitalidentity"><img src="/assets/images/digitalidentity.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Digital Identity</h4>
+
+                  <p class="p card-subtitle">We can help you build your online presence, and our digital infrastructure
+                    will allow financial institutions to validate
+                    identities without depending on physical documentation.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="clearingcettlement"><img src="/assets/images/Clearingettlement.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Clearing and Settlement</h4>
+
+                  <p class="p card-subtitle">We make the clearing and settlement process smoother so financial
+                    institutions can send and receive wire transfers
+                    multiple times daily.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="Provenance"><img src="/assets/images/Provenance.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Provenancet</h4>
+
+                  <p class="p card-subtitle">We offer an immutable and irreversible source of information that can track
+                    the true ownership of a product across the
+                    supply chain.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="Multi"><img src="/assets/images/Multi.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Multi Party Aggregation</h4>
+
+                  <p class="p card-subtitle">We build a shared master data repository with flexible data modelling
+                    capabilities that allow members to inquire about
+                    the master data objects and entities.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="RecordKeeping"><img src="/assets/images/RecordKeeping.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Record Keeping</h4>
+
+                  <p class="p card-subtitle">We make the process of recording transactions and data in an accounting
+                    system while certifying any kind of data – be it
+                    financial or else.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="whatwedo-card">
+                <div class="card-content">
+                  <div class="ReInsurance"><img src="/assets/images/ReInsurance.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Re Insurance</h4>
+
+                  <p class="p card-subtitle">We take care of contractual terms and obligations that insurers need when
+                    transferring shares of their risk portfolio to
+                    another party.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+                           - #What is Digikoein ?
+                    -->
+
+      <section class="section Digikoein" id="Digikoein">
+        <div class="container">
+
+          <div class="section-title">
+            <h2 class="h2">what is Digikoein?</span> </h2>
+
+            <p class="section-text">
+              DIGI KOEIN is created and developed by a group of the financial experts under the company of <span
+                class="greenshark"> Green
+                Shark
+                Limited</span> to
+              prompt a technological innovation and to positively alter the financial industry practice and the life of
+              people. The
+              ways to use “Money” are below observed and divided into three categories:
+              1) Fund Transfer; 2) Payment and 3) Currency Exchanges.
+            </p>
+
+
+            <p class="section-text">
+              However, the industry practice currently adopted, to some extent, hinders a full-fledged technological and
+              economic
+              growth in terms of the usage of Money. The global and independent platform created through DIGI KOEIN
+              Blockchain/Distributed Ledger Technology shall get the divided ways of “Money” usage bundled and
+              integrated to remove
+              the current intermediaries, and to offer the alternative solutions.
+
+            </p>
+
+            <p class="section-text">
+
+              The technology shall ultimately expand its horizon to be used in a variety of financial services including
+              credits and
+              loans, trade finance, and others. At this stage, it is certain that the market recognition and brand name
+              of DIGI KOEIN
+              will be explosively heightened.
+            </p>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary yellow">Learn More</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+                   - #What do we Offer
+            -->
+
+      <section class="section weOffer" id="weOffer">
+        <div class="container">
+          <h1>What do we Offer</h1>
+          <ul class="weOffer-list ">
+
+
+            <li>
+              <div class="weOffer-card">
+                <div class="card-content">
+                  <div class="PaymentSystem"><img src="/assets/images/payment.png" alt=""></div>
+                  <h4 class="h3 card-title">Payment System</h4>
+                </div>
+                <div class="arrowFrame">
+                  <img src="./assets/images/Frame.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="weOffer-card">
+                <div class="card-content">
+                  <div class="CurrencyExchange"><img src="/assets/images/fund.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Currency Exchange</h4>
+                </div>
+                <div class="arrowFrametwo">
+                  <img src="./assets/images/Frame.png" alt="">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="weOffer-cardBig">
+                <div class="card-content">
+                  <div class="FundTransfer"><img src="/assets/images/forex.png" alt=""></div>
+
+                  <h4 class="h3 card-title">Fund Transfer</h4>
+                </div>
+                <p>
+                  Fund transfer, also known as remittance, involves moving funds from one place to another.
+                  Traditionally, banks have
+                  facilitated this process through domestic and international banking networks like SWIFT.
+
+                  In recent years, remittance companies have emerged, offering services under new regulations and using
+                  technology such as
+                  mobile devices. However, these companies face obstacles as they rely on the traditional banking
+                  infrastructure, which
+                  restricts their ability to adopt further technological advancements.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+    - #FOOTER
+  -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footerlogo">
+            <div class="logo">
+              <img src="./assets/images/footerlogo.png" alt="">
+              <p class="fotter_des">DIGI KOEIN is embarking on a groundbreaking initiative to revolutionize the
+                remittance and payment
+                services sector by
+                harnessing the power of blockchain technology.</p>
+            </div>
+
+            <p class="copyright">
+              <a href="#" class="copyright-link">DIGIKOEIN 2023 @</a>
+            </p>
+          </div>
+
+          <div class="legal">
+            <ul class="footer-list_legal">
+              <li>
+                <a href="#" class="footer-link">Legal</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Trademarks</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sitemap">
+            <ul class="footer-list_sitemap">
+              <li>
+                <a href="#" class="footer-link">Sitemap</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">What is Digikoein?</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">What is DLT for Future Bank</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Services</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_about">
+            <ul class="footer-list_about">
+              <li>
+                <a href="#" class="footer-link">About</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Litepaper</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Community</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Github</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </footer>
+
+
+
+
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+      <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

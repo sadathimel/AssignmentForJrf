@@ -1,0 +1,145 @@
+Sadat Hossen Himel - Web Developer from Dhaka
+
+
+
+#---------- HEADER ----------#
+
+DIGI KOEIN
+
+aria-label = Toggle Menu
+
+<ion-icon name="menu-outline"></ion-icon>
+<ion-icon name="close-outline"></ion-icon>
+
+Home
+What we do
+What is Digikoein?
+Remittance
+About
+
+English
+<ion-icon name="caret-down-outline"></ion-icon>
+<ion-icon name="caret-up-outline"></ion-icon>
+
+
+#---------- HERO ----------#
+
+Unified Product, Simplified Transection
+
+Free your Money with digital Blockchain / DHL Bank
+
+DIGI-KOEIN is a cryptocurrency, It’s developed by Green Sked, led by financial experts, to transform the financial industry and enhance people's lives using Blockchain technology.
+
+
+Learn More
+
+ Scroll Down
+
+ <ion-icon name="arrow-down-outline"></ion-icon>
+
+
+ #---------- What we do ----------#
+
+ What we do with Blockchain DLT/ Bank
+
+ Join a first-growing community of developers and innovators connected all over the world, building the new era of the internet.
+
+ <ion-icon name="arrow-back-outline"></ion-icon>
+ <ion-icon name="arrow-forward-outline"></ion-icon>
+
+ Trade Finance
+ alt = Trade Finance
+We offer green financing to help sellers, buyers, and financial institutions facilitate trade as well as create an atmosphere for non-conventional players
+
+Cross-Border Payments 
+ alt = Cross-Border Payments
+We make the transaction easier between the payer and payee from different countries by ensuring low cost, high speed, unlimited access and sufficient transparency.
+
+Digital Identity
+ alt = Digital Identity
+We can help you build your online presence, and our digital infrastructure will allow financial institutions to validate identities without depending on physical documentation.
+
+Clearing and Settlement
+ alt = Clearing and Settlement
+We make the clearing and settlement process smoother so financial institutions can send and receive wire transfers multiple times daily.
+
+Provenance
+ alt = Provenance
+We offer an immutable and irreversible source of information that can track the true ownership of a product across the supply chain.
+
+Multi-Party Aggregation
+ alt = Multi-Party Aggregation
+We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.
+
+Record Keeping
+ alt = Record Keeping
+We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.
+
+Re insurance
+ alt = Re insurance
+We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.
+
+
+
+#---------- What is Digikoein ? ----------#
+
+DIGI KOEIN is created and developed by a group of the financial experts under the company of Green Shark Limited to prompt a technological innovation and to positively alter the financial industry practice and the life of people. The ways to use “Money” are below observed and divided into three categories: 
+1) Fund Transfer; 2) Payment and 3) Currency Exchanges.
+
+However, the industry practice currently adopted, to some extent, hinders a full-fledged technological and economic growth in terms of the usage of Money. The global and independent platform created through DIGI KOEIN Blockchain/Distributed Ledger Technology shall get the divided ways of “Money” usage bundled and integrated to remove the current intermediaries, and to offer the alternative solutions. 
+
+The technology shall ultimately expand its horizon to be used in a variety of financial services including credits and loans, trade finance, and others. At this stage, it is certain that the market recognition and brand name of DIGI KOEIN will be explosively heightened.
+
+             Learn More
+
+
+
+
+             
+#---------- What Do we offer ? ----------#
+What do we Offer
+
+Fund Transfer
+
+Fund transfer, also known as remittance, involves moving funds from one place to another. Traditionally, banks have facilitated this process through domestic and international banking networks like SWIFT. 
+
+In recent years, remittance companies have emerged, offering services under new regulations and using technology such as mobile devices. However, these companies face obstacles as they rely on the traditional banking infrastructure, which restricts their ability to adopt further technological advancements.
+
+Payment System
+
+alt="Payment System"
+
+
+Currency Exchange
+alt="Currency Exchange"
+
+
+#---------- FOOTER ----------#
+DIGI KOEIN is embarking on a groundbreaking initiative to revolutionize the remittance and payment services sector by harnessing the power of blockchain technology.
+DIGIKOEIN 2023 ©
+Legal
+Trademarks
+
+
+Sitemap
+Home
+What is Digikoein?
+What is DLT for Future Bank
+Services
+Terms & Conditions
+
+
+
+Contact
+Blog
+Litepaper
+Community
+Github
+
+
+
+
+
+#---------- BACK TO TOP ----------#
+
+BACK TOP
