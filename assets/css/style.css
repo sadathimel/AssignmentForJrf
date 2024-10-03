@@ -272,9 +272,8 @@ body {
 
 .hidden {
   display: none;
+  opacity: 0;
 }
-
-
 
 
 /*-----------------------------------*\
@@ -553,7 +552,8 @@ select:hover {
 .whatwedo-list {
   display: flex;
   flex-wrap: nowrap;
-  gap: 30px;
+  gap: 16px;
+  overflow: hidden;
   justify-content: space-around;
 }
 
@@ -1774,4 +1774,38 @@ select:hover {
     color: var(--white);
   }
 
+}
+
+
+
+/* addition CSS */
+
+.carousel {
+  overflow: hidden;
+  width: 900px;
+  /* Adjust to your requirement */
+}
+
+.carousel ul {
+  display: flex;
+  width: 3200px;
+  /* 400px * 8 (for 8 items) */
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel li {
+  list-style-type: none;
+  width: 400px;
+  /* Width of each item */
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.arrow_btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
